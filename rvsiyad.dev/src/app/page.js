@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 /**
  * Home page for the one-page portfolio. Sections are composed here as they
@@ -17,7 +19,9 @@ export default function Home() {
         <About />
         <Experience />
         <Projects />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }
