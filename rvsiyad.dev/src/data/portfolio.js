@@ -37,6 +37,18 @@ export const portfolio = {
         "Shipped tax components in the central pricing response, validated by replaying production traffic.",
       ],
     },
+    {
+      company: "Meta",
+      url: "https://www.meta.com",
+      role: "Software Engineer Intern",
+      start: "Jun 2025",
+      end: "Sep 2025",
+      highlights: [
+        "Owned SSO, user management, and 2FA features for Managed Meta Accounts, built with Hack, React, and GraphQL.",
+        "Shipped Admin Codes, an emergency 2FA flow that cut internal support queries by 82%.",
+        "Integrated WhatsApp as a 2FA channel with smart SMS fallback, doubling deliveries and saving ~$1,200/day.",
+      ],
+    },
   ],
   projects: [
     {
