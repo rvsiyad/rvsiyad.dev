@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 
 /**
  * Home page for the one-page portfolio. Sections are composed here as they
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <Experience />
+        <Projects />
       </main>
     </>
   );
