@@ -106,7 +106,10 @@ export const portfolio = {
   },
   socials: [
     { label: "GitHub", url: "https://github.com/rvsiyad" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/in/roble-siyad" },
+    {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/roble-siyad-77a479223/",
+    },
   ],
 };
 
