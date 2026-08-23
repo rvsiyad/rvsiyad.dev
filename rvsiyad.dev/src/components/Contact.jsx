@@ -20,7 +20,7 @@ export default function Contact() {
             href={`mailto:${portfolio.contact.email}`}
             className="rounded border border-accent px-5 py-3 font-mono text-sm text-accent transition-colors hover:bg-accent/10"
           >
-            Say hello
+            {portfolio.contact.email}
           </a>
           {portfolio.socials.map((social) => (
             <a
