@@ -49,6 +49,18 @@ export const portfolio = {
         "Integrated WhatsApp as a 2FA channel with smart SMS fallback, doubling deliveries and saving ~$1,200/day.",
       ],
     },
+    {
+      company: "DEFRA",
+      url: "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+      role: "Software Developer",
+      start: "Jan 2024",
+      end: "Jun 2025",
+      highlights: [
+        "Replaced a legacy Water Abstraction system with a Node.js, Hapi, PostgreSQL, and AWS tool, boosting data workflows by 55%.",
+        "Revamped unit testing with reusable seed data, cutting local test and CI times by 37.5%.",
+        "Created 20+ PostgreSQL views and built 15+ GOV.UK design-compliant pages with Nunjucks.",
+      ],
+    },
   ],
   projects: [
     {
