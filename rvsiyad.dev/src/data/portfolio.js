@@ -26,25 +26,15 @@ export const portfolio = {
   ],
   experience: [
     {
-      company: "Placeholder Company",
-      url: "https://example.com",
-      role: "Software Engineer",
-      start: "Jun 2024",
+      company: "Expedia Group",
+      url: "https://www.expediagroup.com",
+      role: "Software Development Engineer",
+      start: "Mar 2026",
       end: "Present",
       highlights: [
-        "Shipped customer-facing features across a React and Node.js stack.",
-        "Improved page load performance by profiling and trimming bundle size.",
-        "Worked with designers and product to turn specs into polished UI.",
-      ],
-    },
-    {
-      company: "Earlier Placeholder Inc",
-      role: "Junior Developer",
-      start: "May 2022",
-      end: "May 2024",
-      highlights: [
-        "Built and maintained internal tooling used by the whole team.",
-        "Wrote automated tests that cut regressions in the release pipeline.",
+        "Build pricing components in Java and Scala that apply taxes, fees, and currency exchange across Expedia Group brands.",
+        "Led delivery of QuoteEdit 2.0, a fee-adjustment service, driving a 42% increase in client usage.",
+        "Shipped tax components in the central pricing response, validated by replaying production traffic.",
       ],
     },
   ],
