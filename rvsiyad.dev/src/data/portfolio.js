@@ -84,7 +84,7 @@ export const portfolio = {
     {
       title: "scope",
       description:
-        "An OpenAI-compatible LLM gateway with an observability stack built from scratch — write-ahead log, Gorilla-compressed time-series storage, trace store, and a PromQL-lite query engine feeding live dashboards. Point any OpenAI SDK at it with one line.",
+        "An OpenAI-compatible LLM gateway with an observability stack built from scratch: write-ahead log, Gorilla-compressed time-series storage, trace store, and a PromQL-lite query engine feeding live dashboards. Point any OpenAI SDK at it with one line.",
       tech: ["Go", "Docker"],
       github: "https://github.com/rvsiyad/scope",
       live: "https://scope.rvsiyad.dev/ui/",
@@ -105,7 +105,7 @@ export const portfolio = {
   contact: {
     heading: "Get in touch",
     blurb:
-      "My inbox is always open — whether it's about an opportunity, a project, or just to say hello.",
+      "My inbox is always open, whether it's about an opportunity, a project, or just to say hello.",
     email: "roblesiyad123@gmail.com",
   },
   socials: [
