@@ -1,7 +1,7 @@
 /**
  * Featured project row: a looping demo clip in a browser-style frame beside
  * the write-up, mirrored on alternate rows via `flip`. Users with reduced
- * motion enabled get the poster image instead of the video — handled in CSS,
+ * motion enabled get the poster image instead of the video, handled in CSS,
  * so the page stays free of client-side JavaScript.
  */
 export default function FeaturedProject({ project, flip }) {

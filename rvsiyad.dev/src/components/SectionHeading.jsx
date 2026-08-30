@@ -1,6 +1,6 @@
 /**
- * Shared section heading: mono accent number, title, and a subtle rule,
- * e.g. "01. about ————".
+ * Shared section heading: mono accent number and title, followed by a
+ * subtle horizontal rule that fills the remaining width.
  */
 export default function SectionHeading({ number, title }) {
   return (

@@ -34,7 +34,7 @@ export default function Experience() {
               </span>
             </h3>
             <p className="mt-1 font-mono text-xs text-muted">
-              {job.start} — {job.end}
+              {job.start} – {job.end}
             </p>
             <ul className="mt-4 max-w-2xl space-y-2 text-sm leading-relaxed text-muted">
               {job.highlights.map((highlight) => (
