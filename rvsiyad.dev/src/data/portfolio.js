@@ -74,7 +74,7 @@ export const portfolio = {
         "A mini trading venue: orders enter through a REST gateway, cross in an event-sourced matching engine over Kafka, settle as two-phase transfers in TigerBeetle, and stream back to a live order-book dashboard over WebSockets.",
       tech: ["Java", "Kafka", "TigerBeetle", "WebSockets", "Docker"],
       github: "https://github.com/rvsiyad/exchange",
-      live: "http://84.8.154.113:8090",
+      live: "https://exchange.rvsiyad.dev",
       media: {
         video: "/demos/exchange.mp4",
         poster: "/demos/exchange-poster.jpg",
@@ -87,7 +87,7 @@ export const portfolio = {
         "An OpenAI-compatible LLM gateway with an observability stack built from scratch — write-ahead log, Gorilla-compressed time-series storage, trace store, and a PromQL-lite query engine feeding live dashboards. Point any OpenAI SDK at it with one line.",
       tech: ["Go", "Docker"],
       github: "https://github.com/rvsiyad/scope",
-      live: "http://132.145.29.69:9091/ui/",
+      live: "https://scope.rvsiyad.dev/ui/",
       media: {
         video: "/demos/scope.mp4",
         poster: "/demos/scope-poster.jpg",
