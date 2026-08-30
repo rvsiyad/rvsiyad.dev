@@ -69,26 +69,20 @@ export const portfolio = {
   ],
   projects: [
     {
-      title: "Project One",
+      title: "exchange",
       description:
-        "A full-stack web app placeholder. Swap this with a real project: what it does, who it's for, and what makes it interesting.",
-      tech: ["Next.js", "Tailwind CSS", "PostgreSQL"],
-      github: "https://github.com/rvsiyad",
-      live: "https://example.com",
+        "A mini trading venue: orders enter through a REST gateway, cross in an event-sourced matching engine over Kafka, settle as two-phase transfers in TigerBeetle, and stream back to a live order-book dashboard over WebSockets.",
+      tech: ["Java", "Kafka", "TigerBeetle", "WebSockets", "Docker"],
+      github: "https://github.com/rvsiyad/exchange",
+      live: "http://84.8.154.113:8090",
     },
     {
-      title: "Project Two",
+      title: "scope",
       description:
-        "An API or tooling placeholder. A sentence on the problem it solves and one on the implementation.",
-      tech: ["Node.js", "Express", "Redis"],
-      github: "https://github.com/rvsiyad",
-    },
-    {
-      title: "Project Three",
-      description:
-        "A smaller experiment or learning project. Even little builds are worth showing when they demonstrate curiosity.",
-      tech: ["Python", "FastAPI"],
-      github: "https://github.com/rvsiyad",
+        "An OpenAI-compatible LLM gateway with an observability stack built from scratch — write-ahead log, Gorilla-compressed time-series storage, trace store, and a PromQL-lite query engine feeding live dashboards. Point any OpenAI SDK at it with one line.",
+      tech: ["Go", "Docker"],
+      github: "https://github.com/rvsiyad/scope",
+      live: "http://132.145.29.69:9091/ui/",
     },
     {
       title: "rvsiyad.dev",
