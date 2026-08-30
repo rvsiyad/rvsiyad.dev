@@ -88,6 +88,11 @@ export const portfolio = {
       tech: ["Go", "Docker"],
       github: "https://github.com/rvsiyad/scope",
       live: "http://132.145.29.69:9091/ui/",
+      media: {
+        video: "/demos/scope.mp4",
+        poster: "/demos/scope-poster.jpg",
+        alt: "scope demo: live dashboards charting gateway traffic, the request log filling, and a trace waterfall of one request's spans",
+      },
     },
     {
       title: "rvsiyad.dev",
