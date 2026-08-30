@@ -75,6 +75,11 @@ export const portfolio = {
       tech: ["Java", "Kafka", "TigerBeetle", "WebSockets", "Docker"],
       github: "https://github.com/rvsiyad/exchange",
       live: "http://84.8.154.113:8090",
+      media: {
+        video: "/demos/exchange.mp4",
+        poster: "/demos/exchange-poster.jpg",
+        alt: "exchange demo: orders resting on the book, crossing the spread, and sweeping two price levels",
+      },
     },
     {
       title: "scope",
