@@ -22,9 +22,14 @@ export default function FeaturedProject({ project, flip }) {
           <span className="size-2 rounded-full bg-border-subtle" />
           <span className="size-2 rounded-full bg-border-subtle" />
           {liveLabel && (
-            <span className="ml-2 truncate font-mono text-[0.68rem] text-muted">
+            <a
+              href={project.live}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-2 truncate font-mono text-[0.68rem] text-muted transition-colors hover:text-accent"
+            >
               {liveLabel}
-            </span>
+            </a>
           )}
         </div>
         <video
