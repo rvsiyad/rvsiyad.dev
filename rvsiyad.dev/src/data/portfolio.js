@@ -7,12 +7,12 @@ export const portfolio = {
   name: "Roble Siyad",
   role: "Software Engineer",
   prompt: "$ whoami",
-  tagline: "I build things for the web.",
+  tagline: "I build systems that move money and data.",
   intro:
-    "Software engineer focused on building clean, reliable web applications from front to back.",
+    "I work on pricing systems at Expedia Group, and I like building the kind of software most people only use: exchanges, time-series databases, LLM gateways. All of it runs live on this domain.",
   bio: [
-    "Hi, I'm Roble. I'm a software engineer who enjoys taking ideas from a rough sketch to something real people can use. I care about readable code, fast feedback loops, and interfaces that stay out of the user's way.",
-    "When I'm not writing code, I'm usually digging into how things work under the hood, or tinkering with side projects that let me try new tools.",
+    "Hi, I'm Roble. I'm a software engineer at Expedia Group, where I work on the pricing systems that apply taxes, fees, promotions, and currency exchange across the group's brands. Before that I built account-security features at Meta and replaced a legacy government data system at DEFRA, which means I've shipped code in three very different environments: big-tech scale, regulated government, and revenue-critical pricing.",
+    "Outside work, I learn by building infrastructure from first principles. I've built a mini trading venue with an event-sourced matching engine and two-phase settlement, and an LLM gateway with its own write-ahead log, compressed time-series storage, and query engine. Both are live on this domain, and the demos below are real systems, not mockups.",
   ],
   skills: [
     "JavaScript",
@@ -37,7 +37,7 @@ export const portfolio = {
       start: "Mar 2026",
       end: "Present",
       highlights: [
-        "Build pricing components in Java and Scala that apply taxes, fees, and currency exchange across Expedia Group brands.",
+        "Build pricing components in Java and Scala that apply taxes, fees, promotions, and currency exchange across Expedia Group brands.",
         "Led delivery of QuoteEdit 2.0, a fee-adjustment service, driving a 42% increase in client usage.",
         "Shipped tax components in the central pricing response, validated by replaying production traffic.",
       ],
@@ -105,7 +105,7 @@ export const portfolio = {
   contact: {
     heading: "Get in touch",
     blurb:
-      "My inbox is always open, whether it's about an opportunity, a project, or just to say hello.",
+      "If you're building something interesting, want to talk systems, or just fancy saying hi, my inbox is open.",
     email: "roblesiyad123@gmail.com",
   },
   socials: [
